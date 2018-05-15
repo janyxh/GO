@@ -8,18 +8,18 @@
 -	编译压缩：npm run build
 -	编译并报告：npm run build --report
 
-## 项目相关地址
+<!-- ## 项目相关地址
 - 代码svn：https://suyulin@192.168.2.14:36000/svn/project/vihome/03Software/01Code/03server/office/front_vue
 - 过往文件svn：https：//192.168.2.14:36000/svn/project/vihome/08PM/智慧办公
 - UI：https://lanhuapp.com/web/#!/item/board?pid=3ad373a8-0845-405a-bc47-8644c2d64d17
 - 需求：http://orvibo521.xicp.net:8190/pages/viewpage.action?pageId=22774080
-- api文档：http://192.168.2.189:8080/intelligenceOffice/swagger-ui.html#/
+- api文档：http://192.168.2.189:8080/intelligenceOffice/swagger-ui.html#/ -->
 
-## 测试账号
+<!-- ## 测试账号
 1.  user: 15989860607 pw: 654321 desc: 个人测试
 2.  user: 13790371603 / 810768333@qq.com pw: 369369 desc: 个人测试
 3.  user: cici@163.com  pw: 999000  desc: 此账号数据比较全
-3.  user: HUDIE@ORVIBO.COM  pw: 123456  desc: 此账号设备比较多
+3.  user: HUDIE@ORVIBO.COM  pw: 123456  desc: 此账号设备比较多 -->
 
 
 ## 全局信息
@@ -36,7 +36,7 @@ src
 |-- utils 纯js的公用方法函数
 |-- views 独立于办公控制系统（无导航）的页面组件
 |-- vuex 状态管理（暂时不使用）
-
+<!-- 
 ## 代码持续集成（发布）
 地址： http://192.168.2.243:8080/ user:office pw:office
 office-front-test 是测试环境
@@ -44,46 +44,4 @@ office-front-prod 是线上环境
 
 ## 线上地址
 测试服务器：http://192.168.2.189
-正式服务器：http://greenoffice.orvibo.com
-
-## nginx 配置
- gzip  on;
-    gzip_min_length 1k;
-    gzip_buffers 4 16k;
-    #gzip_http_version 1.0;
-    gzip_comp_level 2;
-    gzip_types text/plain application/x-javascript text/css application/xml application/javascript text/javascript application/x-httpd-php image/jpeg image/gif image/png;
-    gzip_vary off;
-    gzip_disable "MSIE [1-6]\.";
-
-pagespeed on;
-pagespeed FileCachePath /tmp/cache/ngx_pagespeed_cache;
-
-pagespeed RewriteLevel PassThrough;
-
-pagespeed EnableFilters collapse_whitespace;
-
-pagespeed EnableFilters canonicalize_javascript_libraries;
-
-pagespeed EnableFilters combine_css;
-
-pagespeed EnableFilters combine_javascript;
-
-pagespeed EnableFilters elide_attributes;
-
-pagespeed EnableFilters extend_cache;
-
-pagespeed EnableFilters flatten_css_imports;
-pagespeed CssFlattenMaxBytes 5120;
-
-pagespeed EnableFilters lazyload_images;
-
-pagespeed EnableFilters rewrite_javascript;
-
-pagespeed EnableFilters rewrite_images;
-
-pagespeed EnableFilters insert_dns_prefetch;
-
-pagespeed EnableFilters prioritize_critical_css;
-
-pagespeed Disallow "*/wp-admin/*";
+正式服务器：http://greenoffice.orvibo.com -->
