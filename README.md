@@ -27,15 +27,15 @@ sessionStorage.getItem('isLogin')  //是否登录（登录页，注册页，找�
 sessionStorage.getItem('isSystem')  //是否是系统管理员，对应的值38（企业管理员），39（普通管理员），40（普通用户）
 
 ## 代码文件夹目录
-src
-|-- api 网络请求和网络设置
-|-- assets 图片、样式、iconfont
-|-- component ui组件，非公用组件也在各自的文件夹下
-|-- items 公用小组件
-|-- router 路由配置
-|-- utils 纯js的公用方法函数
-|-- views 独立于办公控制系统（无导航）的页面组件
-|-- vuex 状态管理（暂时不使用）
+-	src
+-	|-- api 网络请求和网络设置
+-	|-- assets 图片、样式、iconfont
+-	|-- component ui组件，非公用组件也在各自的文件夹下
+-	|-- items 公用小组件
+-	|-- router 路由配置
+-	|-- utils 纯js的公用方法函数
+-	|-- views 独立于办公控制系统（无导航）的页面组件
+-	|-- vuex 状态管理（暂时不使用）
 <!-- 
 ## 代码持续集成（发布）
 地址： http://192.168.2.243:8080/ user:office pw:office
