@@ -1,0 +1,75 @@
+/*****************************************************************************************
+此文件是注册、申请授权、找回密码页码的共同样式
+author：马兆铿
+date：2017-8-29
+*****************************************************************************************/
+.register{
+  color: #121212;
+  text-align: center;
+  font-size: 16px;
+  height: 100%;
+  overflow: auto;
+  /*容器*/
+  .content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 84px;
+    background:#ffffff;
+    border-radius: 6px;
+    text-align: left;
+    /*面包屑*/
+    .breadcrumb{
+      position: relative;
+      border-bottom:1px solid #f1f1f1;
+      margin-bottom: 50px;
+      padding: 23px 20px;
+      h2{
+        font-size: 20px;
+        font-weight: normal;
+      }
+      i{
+        font-size: 16px;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translate(0,-50%);
+        font-style:normal;
+        a{
+          span{
+            color: #15d1a5;
+          }
+        }
+      }
+    }
+    /*三种按钮样式*/
+    button{
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .btn-1{
+      height: 46px;
+      box-sizing: border-box;
+      border: 2px solid #ccceda;
+      background: #fff;
+      color: #8a8ca0;
+      font-size: 18px;
+      border-radius: 23px;
+      &.active{
+        color: #fff;
+        background: #15d1a5;
+        border-color: #15d1a5;
+      }
+    }
+    .btn-2{
+      box-sizing: border-box;
+      border: 2px #dddfe8 solid;
+      font-size: 16px;
+      color: #15cea3;
+      border-radius: 6px;
+      background: #fff;
+      height: 46px;
+      width: 120px;
+    }
+  }
+}
